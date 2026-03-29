@@ -1,0 +1,32 @@
+/* Text Card Override */
+.projects__text-card {
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--line-color);
+  transition: var(--tran-fast);
+  display: flex;
+  flex-direction: column;
+}
+
+.projects__text-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px hsla(var(--hue), 15%, 15%, 0.1);
+  border-color: var(--first-color);
+}
+
+.projects__text-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.projects__icon {
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.projects__links {
+  margin-top: auto;
+}

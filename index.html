@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananya Varshney | Developer Portfolio</title>
+    <meta name="description" content="BTech Student | Aspiring Developer | Problem Solver">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons: Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Animations: AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cards.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">&lt;Dev/&gt;</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <i class='bx bx-x nav__close' id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data" data-aos="fade-right" data-aos-duration="1000">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Ananya Varshney</h1>
+                    <h3 class="home__education">BTech 2nd Year | Computer Science & Data Science</h3>
+                    <p class="home__description">
+                        Hi! I'm a second-year B.Tech CS student specializing in Data Science. I love building web apps, experimenting with new tech, and figuring out how things work under the hood.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#projects" class="button">View Projects</a>
+                        <a href="#" class="button button--ghost">Download Resume</a>
+                    </div>
+                </div>
+                <div class="home__img-wrapper" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="profile.png" alt="Profile" class="home__img" id="profile-img">
+                    <div class="home__img-backdrop"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <h2 class="section__title" data-aos="fade-up">About Me</h2>
+            <span class="section__subtitle" data-aos="fade-up" data-aos-delay="100">My Introduction</span>
+
+            <div class="about__container container grid">
+                <div class="about__data" data-aos="fade-up" data-aos-delay="200">
+                    <p class="about__description">
+                        I've always been drawn to web development because I enjoy bringing ideas to life on the screen. Right now, alongside my university coursework, I'm focusing heavily on Data Structures and Algorithms (DSA) to sharpen my problem-solving skills. When I'm not debugging my code, I'm usually looking for the next fun project to build!
+                    </p>
+                    <div class="about__info">
+                        <div class="about__info-box">
+                            <i class='bx bx-code-alt about__icon'></i>
+                            <h3 class="about__info-title">Background</h3>
+                            <span class="about__info-subtitle">CS & Data Science</span>
+                        </div>
+                        <div class="about__info-box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__info-title">Projects</h3>
+                            <span class="about__info-subtitle">Always building</span>
+                        </div>
+                        <div class="about__info-box">
+                            <i class='bx bx-book-reader about__icon'></i>
+                            <h3 class="about__info-title">Focus</h3>
+                            <span class="about__info-subtitle">DSA & Web Dev</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title" data-aos="fade-up">My Skills</h2>
+            <span class="section__subtitle" data-aos="fade-up" data-aos-delay="100">Technologies I've been working with</span>
+
+            <div class="skills__container container grid">
+                <!-- Programming Languages -->
+                <div class="skills__content" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="skills__title"><i class='bx bx-code-curly skills__title-icon'></i> Languages</h3>
+                    <div class="skills__group">
+                        <div class="skills__badge"><i class='bx bxl-java'></i> Java</div>
+                        <div class="skills__badge"><i class='bx bxl-c-plus-plus'></i> C++</div>
+                        <div class="skills__badge"><i class='bx bxl-python'></i> Python</div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skills__content" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="skills__title"><i class='bx bx-globe skills__title-icon'></i> Frontend</h3>
+                    <div class="skills__group">
+                        <div class="skills__badge"><i class='bx bxl-html5'></i> HTML5</div>
+                        <div class="skills__badge"><i class='bx bxl-css3'></i> CSS3</div>
+                        <div class="skills__badge"><i class='bx bxl-javascript'></i> JavaScript</div>
+                        <div class="skills__badge"><i class='bx bxl-react'></i> React.js</div>
+                    </div>
+                </div>
+
+                <!-- UI/UX Design -->
+                <div class="skills__content" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="skills__title"><i class='bx bx-palette skills__title-icon'></i> UI/UX Design</h3>
+                    <div class="skills__group">
+                        <div class="skills__badge"><i class='bx bx-layout'></i> Wireframing</div>
+                        <div class="skills__badge"><i class='bx bx-mobile-alt'></i> Responsive Design</div>
+                        <div class="skills__badge"><i class='bx bx-slider-alt'></i> Prototyping</div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skills__content" data-aos="fade-up" data-aos-delay="500">
+                    <h3 class="skills__title"><i class='bx bxs-wrench skills__title-icon'></i> Tools</h3>
+                    <div class="skills__group">
+                        <div class="skills__badge"><i class='bx bxl-git'></i> Git</div>
+                        <div class="skills__badge"><i class='bx bxl-github'></i> GitHub</div>
+                        <div class="skills__badge"><i class='bx bxl-figma'></i> Figma</div>
+                        <div class="skills__badge"><i class='bx bxl-visual-studio'></i> VS Code</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title" data-aos="fade-up">Portfolio</h2>
+            <span class="section__subtitle" data-aos="fade-up" data-aos-delay="100">Most recent work</span>
+
+            <div class="projects__container container grid">
+                <!-- Project 1 -->
+                <article class="projects__text-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="projects__text-header">
+                        <i class='bx bx-restaurant projects__icon'></i>
+                        <h3 class="projects__title">Restaurant Website</h3>
+                    </div>
+                    <p class="projects__description">A fully responsive and interactive website designed for a modern restaurant.</p>
+                    <ul class="projects__stack">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <div class="projects__links">
+                        <a href="#" class="projects__link"><i class='bx bx-link-external'></i> Live</a>
+                        <a href="#" class="projects__link"><i class='bx bxl-github'></i> Code</a>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="projects__text-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="projects__text-header">
+                        <i class='bx bx-grid-alt projects__icon'></i>
+                        <h3 class="projects__title">5x5 Tic-Tac-Toe</h3>
+                    </div>
+                    <p class="projects__description">An extended version of the classic Tic-Tac-Toe game featuring a 5x5 grid.</p>
+                    <ul class="projects__stack">
+                        <li>JavaScript</li>
+                        <li>Logic</li>
+                        <li>DS</li>
+                    </ul>
+                    <div class="projects__links">
+                        <a href="#" class="projects__link"><i class='bx bx-link-external'></i> Live</a>
+                        <a href="#" class="projects__link"><i class='bx bxl-github'></i> Code</a>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="projects__text-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="projects__text-header">
+                        <i class='bx bx-file projects__icon'></i>
+                        <h3 class="projects__title">Resume & Portfolio Maker</h3>
+                    </div>
+                    <p class="projects__description">A mini-project web application to help users generate professional resumes and portfolios.</p>
+                    <ul class="projects__stack">
+                        <li>React</li>
+                        <li>JavaScript</li>
+                        <li>Web Design</li>
+                    </ul>
+                    <div class="projects__links">
+                        <a href="#" class="projects__link"><i class='bx bx-link-external'></i> Live</a>
+                        <a href="#" class="projects__link"><i class='bx bxl-github'></i> Code</a>
+                    </div>
+                </article>
+                
+                <!-- Project 4 -->
+                <article class="projects__text-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="projects__text-header">
+                        <i class='bx bx-network-chart projects__icon'></i>
+                        <h3 class="projects__title">Alumni-Student App</h3>
+                    </div>
+                    <p class="projects__description">Developed for SIH to bridge the communication gap between alumni and students.</p>
+                    <ul class="projects__stack">
+                        <li>React.js</li>
+                        <li>UI/UX</li>
+                        <li>Web App</li>
+                    </ul>
+                    <div class="projects__links">
+                        <a href="#" class="projects__link"><i class='bx bx-link-external'></i> Live</a>
+                        <a href="#" class="projects__link"><i class='bx bxl-github'></i> Code</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Experience/Timeline Section -->
+        <section class="experience section" id="experience">
+            <h2 class="section__title" data-aos="fade-up">Timeline</h2>
+            <span class="section__subtitle" data-aos="fade-up" data-aos-delay="100">My Journey</span>
+
+            <div class="experience__container container grid">
+                <!-- Education -->
+                <div class="timeline__group" data-aos="fade-right" data-aos-delay="200">
+                    <h3 class="timeline__title"><i class='bx bx-book-open'></i> Education</h3>
+                    
+                    <div class="timeline__item">
+                        <div class="timeline__line"></div>
+                        <div class="timeline__dot"></div>
+                        <h4 class="timeline__item-title">BTech (Computer Science & Data Science)</h4>
+                        <span class="timeline__item-subtitle">ABES Institute of Technology, Ghaziabad (Affiliated to AKTU)</span>
+                        <span class="timeline__item-date"><i class='bx bx-calendar'></i> 2024 - 2028 (Expected)</span>
+                        <p class="timeline__item-description">
+                            Currently in my second year. Exploring Data Science concepts, improving my logic with algorithms, and building full-stack web projects.
+                            <br><br>
+                            <strong>Academic Record:</strong><br>
+                            • 3rd Semester: 7.92 CGPA<br>
+                            • 1st Year Average: 7.5 CGPA (1st Sem: 7.9 CGPA)
+                        </p>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__line"></div>
+                        <div class="timeline__dot"></div>
+                        <h4 class="timeline__item-title">Class 12th (Senior Secondary)</h4>
+                        <span class="timeline__item-subtitle">St. Fidelis Senior Secondary School</span>
+                        <span class="timeline__item-date"><i class='bx bx-calendar'></i> 2024</span>
+                        <p class="timeline__item-description">Finished high school with a strong focus on Mathematics and Science.</p>
+                    </div>
+                    
+                    <div class="timeline__item">
+                        <div class="timeline__line"></div>
+                        <div class="timeline__dot"></div>
+                        <h4 class="timeline__item-title">Class 10th (Secondary)</h4>
+                        <span class="timeline__item-subtitle">St. Fidelis Senior Secondary School</span>
+                        <span class="timeline__item-date"><i class='bx bx-calendar'></i> 2022</span>
+                        <p class="timeline__item-description">Built my academic foundation here.</p>
+                    </div>
+                </div>
+
+                <!-- Experience & Achievements -->
+                <div class="timeline__group" data-aos="fade-left" data-aos-delay="300">
+                    <h3 class="timeline__title"><i class='bx bx-laptop'></i> What I'm Learning</h3>
+                    
+                    <div class="timeline__item">
+                        <div class="timeline__line"></div>
+                        <div class="timeline__dot"></div>
+                        <h4 class="timeline__item-title">Data Structures & Algorithms</h4>
+                        <span class="timeline__item-subtitle">Continuous Learning</span>
+                        <span class="timeline__item-date"><i class='bx bx-calendar'></i> Present</span>
+                        <p class="timeline__item-description">Practicing on platforms like LeetCode and Codeforces to build a really strong foundation in algorithm design.</p>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__line"></div>
+                        <div class="timeline__dot"></div>
+                        <h4 class="timeline__item-title">Modern Web Development</h4>
+                        <span class="timeline__item-subtitle">Self-Taught</span>
+                        <span class="timeline__item-date"><i class='bx bx-calendar'></i> Present</span>
+                        <p class="timeline__item-description">Diving deeper into the MERN stack and UI/UX design to build interactive and user-friendly web applications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title" data-aos="fade-up">Get in Touch</h2>
+            <span class="section__subtitle" data-aos="fade-up" data-aos-delay="100">Contact Me</span>
+
+            <div class="contact__container container grid">
+                <div class="contact__info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="contact__card">
+                        <i class='bx bx-mail-send contact__card-icon'></i>
+                        <h3 class="contact__card-title">Email</h3>
+                        <span class="contact__card-data">varshneyananya43@gmail.com</span>
+                        <a href="mailto:varshneyananya43@gmail.com" class="contact__button">Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i></a>
+                    </div>
+                    
+                    <div class="contact__card">
+                        <i class='bx bxl-linkedin contact__card-icon'></i>
+                        <h3 class="contact__card-title">LinkedIn</h3>
+                        <span class="contact__card-data">Ananya Varshney</span>
+                        <a href="https://www.linkedin.com/in/ananya-varshney-0b76a1238/" target="_blank" class="contact__button">Connect <i class='bx bx-right-arrow-alt contact__button-icon'></i></a>
+                    </div>
+
+                    <div class="contact__card">
+                        <i class='bx bxl-github contact__card-icon'></i>
+                        <h3 class="contact__card-title">GitHub</h3>
+                        <span class="contact__card-data">ananaya2400</span>
+                        <a href="https://github.com/ananaya2400" target="_blank" class="contact__button">Follow <i class='bx bx-right-arrow-alt contact__button-icon'></i></a>
+                    </div>
+                </div>
+
+                <div class="contact__content" data-aos="fade-left" data-aos-delay="300">
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="name" class="contact__form-tag">Name</label>
+                            <input type="text" id="name" placeholder="Insert your name" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div">
+                            <label for="email" class="contact__form-tag">Mail</label>
+                            <input type="email" id="email" placeholder="Insert your email" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label for="message" class="contact__form-tag">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here" class="contact__form-input"></textarea>
+                        </div>
+                        <button class="button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">&lt;Dev/&gt;</h1>
+            <ul class="footer__list">
+                <li><a href="#home" class="footer__link">Home</a></li>
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#projects" class="footer__link">Projects</a></li>
+            </ul>
+            <ul class="footer__social">
+                <a href="https://github.com/ananaya2400" target="_blank" class="footer__social-link"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/ananya-varshney-0b76a1238/" target="_blank" class="footer__social-link"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" target="_blank" class="footer__social-link" style="display: none;"><i class='bx bxl-twitter'></i></a>
+            </ul>
+            <span class="footer__copy">&#169; 2026 Ananya Varshney. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Local JS -->
+    <script src="script.js"></script>
+</body>
+</html>
